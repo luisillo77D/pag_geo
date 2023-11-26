@@ -23,6 +23,11 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to="/muestrasadd" className="nav-link">
+              muestrasadd
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to="/users" className="nav-link">
               Usuarios
             </Link>

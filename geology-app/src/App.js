@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import Home from './components/Home';
 import Samples from './components/Samples';
 import Users from './components/Users';
+import MuestraAdd from './components/MuestraAdd';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/samples" element={<Samples />} />
             <Route path="/users" element={<Users />} />
+            <Route path='/muestrasadd' element={<MuestraAdd/>} />
           </Routes>
         </div>
       </div>
